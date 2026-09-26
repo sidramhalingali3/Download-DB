@@ -1,0 +1,37 @@
+# Compiled class files & build artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment files & Secrets (IMPORTANT: Keep credentials out of Git)
+.env
+.env.*
+*.env
+*.properties.local
+application-local.properties
+
+# Database backup files & temporary SQL exports
+*.sql
+*.dump
+*.bak
+temp/
+tmp/
+
+# Log files
+*.log
+logs/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.factorypath
+
+# Operating System files
+.DS_Store
+Thumbs.db
